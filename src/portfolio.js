@@ -138,7 +138,8 @@ const educationInfo = {
       duration: "July 2019 - April 2023",
       desc: "Graduated with a strong foundation in engineering principles and applied technologies.",
       descBullets: [
-        "Software Development, Backend Engineering and Machine Learning in Computer Science"
+        "Software Development, Backend Engineering and Machine Learning in Computer Science",
+        "Extracurriculars in ECell and Techfest as Coordinator."
       ]
     }
   ]
