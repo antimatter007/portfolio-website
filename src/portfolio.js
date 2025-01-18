@@ -138,8 +138,7 @@ const educationInfo = {
       duration: "July 2019 - April 2023",
       desc: "Graduated with a strong foundation in engineering principles and applied technologies.",
       descBullets: [
-        "Participated in various technical workshops and seminars.",
-        "Completed a capstone project on [Your Project Topic]."
+        "Software Development, Backend Engineering and Machine Learning in Computer Science"
       ]
     }
   ]
