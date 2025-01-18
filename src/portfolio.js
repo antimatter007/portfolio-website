@@ -129,11 +129,11 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Indian Institute of Technology Bombay",
-      logo: require("./assets/images/iitb_logo.png"), // Ensure you have this image in the specified path
+      logo: require("./assets/images/iitb_logo.png"),
       subHeader: "B.Tech. in Chemical Engineering",
       duration: "July 2019 - April 2023",
       desc: "Graduated with a strong foundation in engineering principles and applied technologies.",
