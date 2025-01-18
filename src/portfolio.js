@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 // Make sure to replace './assets/lottie/splashAnimation' with your custom splash animation file if you have one
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
@@ -57,9 +57,7 @@ const skillsSection = {
       "⚡ Develop highly efficient and scalable backend systems for web and mobile applications"
     ),
     emoji("⚡ Build and integrate RESTful APIs and microservices"),
-    emoji(
-      "⚡ Implement AI/ML models to enhance application functionalities"
-    )
+    emoji("⚡ Implement AI/ML models to enhance application functionalities")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -129,17 +127,16 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true,
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Indian Institute of Technology Bombay",
-      logo: require("./assets/images/iitb_logo.png"),
+      logo: require("./assets/images/iitb_logo.png"), // Ensure you have this image in the specified path
       subHeader: "B.Tech. in Chemical Engineering",
       duration: "July 2019 - April 2023",
       desc: "Graduated with a strong foundation in engineering principles and applied technologies.",
       descBullets: [
-        "Software Development, Backend Engineering and Machine Learning in Computer Science",
-        "Extracurriculars in ECell and Techfest as Coordinator."
+        "Software Development, Backend Engineering and Machine Learning in Computer Science"
       ]
     }
   ]
@@ -278,7 +275,8 @@ const bigProjects = {
       // Uncomment and ensure you have the image if available
       // image: require("./assets/images/simplebank_logo.webp"), // Ensure you have this image
       projectName: "SimpleBank - Banking System",
-      projectDesc: "Engineered a comprehensive banking system backend using Go and the Gin web framework.",
+      projectDesc:
+        "Engineered a comprehensive banking system backend using Go and the Gin web framework.",
       footerLink: [
         {
           name: "API Documentation",
@@ -294,7 +292,8 @@ const bigProjects = {
       // Uncomment and ensure you have the image if available
       // image: require("./assets/images/muskgpt_logo.webp"), // Ensure you have this image
       projectName: "MuskGPT - AI Chatbot",
-      projectDesc: "Designed and developed an AI-powered chatbot using Flask and OpenAI’s GPT models.",
+      projectDesc:
+        "Designed and developed an AI-powered chatbot using Flask and OpenAI’s GPT models.",
       footerLink: [
         {
           name: "GitHub",
@@ -314,9 +313,8 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters, Competitive Programming Profiles, and Some Cool Stuff that I have done!",
-  
-  achievementsCards: [
 
+  achievementsCards: [
     {
       title: "CodeChef",
       subtitle:
@@ -408,7 +406,8 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Link to your resume can be placed here if available
-  resumeUrl: "https://drive.google.com/file/d/1pyfeMfC-u2bxNdSOhEYB23E6zgZkmt-T/view?usp=drivesdk",
+  resumeUrl:
+    "https://drive.google.com/file/d/1pyfeMfC-u2bxNdSOhEYB23E6zgZkmt-T/view?usp=drivesdk",
   display: true // Set false to hide this section, defaults to true
 };
 
